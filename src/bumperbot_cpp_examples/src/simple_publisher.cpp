@@ -12,7 +12,7 @@ public:
     SimplePublisher() : Node("Mega_Death_Star_Node"), counter_(0)
     {
         /*creates the publisher by calling the partent function of create publisher*/
-        pub_ = create_publisher<std_msgs::msg::String>("chatter_Topic", 10);
+        pub_ = create_publisher<std_msgs::msg::String>("chatter", 10);
         /*Here we use the bind to know what function to call. And we use the timerCallback and this
         because it belongs to an object. If it is a free function you can just do bind(function1()).
         It also create a callable object with bind*/

@@ -210,6 +210,19 @@ simple_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher.dir/build.make CMakeFiles/simple_publisher.dir/build
 .PHONY : simple_publisher/fast
 
+#=============================================================================
+# Target rules for targets named simple_subs
+
+# Build rule for target.
+simple_subs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_subs
+.PHONY : simple_subs
+
+# fast build rule for target.
+simple_subs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subs.dir/build.make CMakeFiles/simple_subs.dir/build
+.PHONY : simple_subs/fast
+
 src/simple_publisher.o: src/simple_publisher.cpp.o
 .PHONY : src/simple_publisher.o
 
@@ -234,6 +247,30 @@ src/simple_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher.dir/build.make CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.s
 .PHONY : src/simple_publisher.cpp.s
 
+src/simple_subs.o: src/simple_subs.cpp.o
+.PHONY : src/simple_subs.o
+
+# target to build an object file
+src/simple_subs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subs.dir/build.make CMakeFiles/simple_subs.dir/src/simple_subs.cpp.o
+.PHONY : src/simple_subs.cpp.o
+
+src/simple_subs.i: src/simple_subs.cpp.i
+.PHONY : src/simple_subs.i
+
+# target to preprocess a source file
+src/simple_subs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subs.dir/build.make CMakeFiles/simple_subs.dir/src/simple_subs.cpp.i
+.PHONY : src/simple_subs.cpp.i
+
+src/simple_subs.s: src/simple_subs.cpp.s
+.PHONY : src/simple_subs.s
+
+# target to generate assembly for a file
+src/simple_subs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subs.dir/build.make CMakeFiles/simple_subs.dir/src/simple_subs.cpp.s
+.PHONY : src/simple_subs.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... bumperbot_cpp_examples_uninstall"
 	@echo "... uninstall"
 	@echo "... simple_publisher"
+	@echo "... simple_subs"
 	@echo "... src/simple_publisher.o"
 	@echo "... src/simple_publisher.i"
 	@echo "... src/simple_publisher.s"
+	@echo "... src/simple_subs.o"
+	@echo "... src/simple_subs.i"
+	@echo "... src/simple_subs.s"
 .PHONY : help
 
 
