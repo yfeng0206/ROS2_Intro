@@ -1,0 +1,5 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[ 66%] Built target simple_subs
+[ 83%] [32m[1mLinking CXX executable simple_publisher[0m
+[ 83%] Built target simple_publisher

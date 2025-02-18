@@ -24,10 +24,11 @@ public:
 private:
     unsigned int counter_;
     /*
-    std::shared_ptr<rclcpp::Publisher <std_msgs::msg::String>> pub_;
     We use shared pointers here because we don't want the publisher and timers to be deleted
     if you don't pass them as publisher and timer here and keep them in this variable they will die
     when the scope ends
+
+    std::shared_ptr<rclcpp::Publisher <std_msgs::msg::String>> pub_;
     */
     rclcpp::Publisher <std_msgs::msg::String> :: SharedPtr pub_;
     rclcpp::TimerBase:: SharedPtr timer_;
