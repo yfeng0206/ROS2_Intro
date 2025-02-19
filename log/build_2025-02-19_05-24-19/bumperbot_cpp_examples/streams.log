@@ -1,0 +1,12 @@
+[0.024s] Invoking command in '/home/admin/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.136s] [ 33%] Built target simple_subs
+[0.143s] [ 66%] Built target simple_publisher
+[0.146s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[0.158s] [01m[K/home/admin/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_parameter.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.158s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.158s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.158s] compilation terminated.
+[0.159s] gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+[0.159s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+[0.159s] gmake: *** [Makefile:146: all] Error 2
+[0.323s] Invoked command in '/home/admin/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
