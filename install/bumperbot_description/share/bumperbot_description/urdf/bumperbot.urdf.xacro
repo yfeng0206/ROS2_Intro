@@ -83,4 +83,19 @@
         <origin rpy="0 0 0" xyz="-0.04755 0 -0.0275"/>
     </joint>
 
+        <link name= "can_link">
+        <visual>
+            <origin rpy="1.57 0 0" xyz="-0.03 0.03 0"/>
+            <geometry>
+                <mesh filename ="package://bumperbot_description/meshes/can_link.STL"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="can_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="can_link"/>
+        <origin rpy="0 0 0" xyz="0 0 0.078"/>
+    </joint>
+
 </robot>
