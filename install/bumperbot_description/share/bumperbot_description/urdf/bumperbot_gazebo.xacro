@@ -39,4 +39,19 @@
         <minDepth>0.001</minDepth>
         <maxVel>1.0</maxVel>
     </gazebo>
+
+    <gazebo>
+        <xacro:if value="$(arg is_ignition)">
+            <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionRos2ControlPlugin">
+                <parameters></parameters>
+            </plugin>
+        </xacro:if>
+
+        <xacro:unless value="$(arg is_ignition)">
+            <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+                <parameters></parameters>
+            </plugin>            
+        </xacro:unless>
+    </gazebo>
+
 </robot>
