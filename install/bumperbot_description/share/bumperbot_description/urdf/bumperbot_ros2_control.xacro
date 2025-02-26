@@ -3,13 +3,13 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="bumperbot"> 
     <ros2_control name="RobotSystem" type = "system">
 
-        <xacro:if value="$(arg_is_ignition)">
+        <xacro:if value="$(arg is_ignition)">
              <hardware>
                 <plugin>ign_ros2_control/IgnitionSystem</plugin>
              </hardware> 
         </xacro:if>
 
-        <xacro:unless value="$(arg_is_ignition)">
+        <xacro:unless value="$(arg is_ignition)">
              <hardware>
                 <plugin>gz_ros2_control/GazeboSimSystem</plugin>
              </hardware> 
