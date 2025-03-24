@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/simple_subs.dir/build.make:76: CMakeFiles/simple_subs.dir/src/simple_subs.cpp.o] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

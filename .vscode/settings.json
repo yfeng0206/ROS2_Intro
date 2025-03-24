@@ -86,7 +86,9 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "geometry": "cpp",
+        "core": "cpp"
     },
     "ros.distro": "jazzy"
 }

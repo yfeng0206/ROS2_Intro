@@ -4,7 +4,7 @@
   <name>bumperbot_py_examples</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="admin@todo.todo">admin</maintainer>
+  <maintainer email="garyfeng000@gmail.com">admin</maintainer>
   <license>TODO: License declaration</license>
 
   <exec_depend>rclpy</exec_depend>

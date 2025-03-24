@@ -1,3 +1,5 @@
+/home/admin/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+/home/admin/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
 /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
 /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
 /home/admin/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller

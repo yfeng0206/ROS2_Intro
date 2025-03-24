@@ -1,0 +1,45 @@
+[0.029s] Invoking command in '/home/admin/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[0.088s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.605s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.675s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.704s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.791s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.870s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.871s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.963s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.177s] -- Configuring done (1.1s)
+[1.202s] -- Generating done (0.0s)
+[1.213s] -- Build files have been written to: /home/admin/bumperbot_ws/build/bumperbot_controller
+[1.326s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[12.205s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[12.678s] [100%] Built target simple_controller
+[12.697s] Invoked command in '/home/admin/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[12.699s] Invoking command in '/home/admin/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/admin/bumperbot_ws/build/bumperbot_controller
+[12.712s] -- Install configuration: ""
+[12.712s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/include/include
+[12.712s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[12.712s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[12.712s] -- Installing: /home/admin/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[12.724s] -- Set non-toolchain portion of runtime path of "/home/admin/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[12.724s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[12.724s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[12.724s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[12.724s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[12.724s] -- Installing: /home/admin/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[12.724s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[12.724s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[12.725s] -- Installing: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[12.725s] -- Up-to-date: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[12.725s] -- Installing: /home/admin/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[12.941s] Invoked command in '/home/admin/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/admin/bumperbot_ws/build/bumperbot_controller

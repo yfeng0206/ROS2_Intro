@@ -1,0 +1,9 @@
+[ 25%] Built target simple_parameter
+[ 50%] Built target simple_turtlesim_kinematics
+[ 62%] [32mBuilding CXX object CMakeFiles/simple_subs.dir/src/simple_subs.cpp.o[0m
+[ 87%] Built target simple_publisher
+gmake[2]: *** [CMakeFiles/simple_subs.dir/build.make:76: CMakeFiles/simple_subs.dir/src/simple_subs.cpp.o] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

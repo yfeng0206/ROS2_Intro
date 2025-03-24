@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/admin/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.060s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.296s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.355s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.365s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.597s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.610s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.762s] -- Configuring done (0.7s)
+[0.789s] -- Generating done (0.0s)
+[0.799s] -- Build files have been written to: /home/admin/bumperbot_ws/build/bumperbot_cpp_examples
+[0.885s] [ 12%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[0.894s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_subs.dir/src/simple_subs.cpp.o[0m
+[0.914s] [ 50%] Built target simple_parameter
+[0.918s] [ 75%] Built target simple_turtlesim_kinematics
+[5.337s] [ 87%] [32m[1mLinking CXX executable simple_publisher[0m
+[5.538s] [ 87%] Built target simple_publisher
+[6.991s] gmake[2]: *** [CMakeFiles/simple_subs.dir/build.make:76: CMakeFiles/simple_subs.dir/src/simple_subs.cpp.o] Interrupt
+[6.992s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/simple_subs.dir/all] Interrupt
+[6.992s] gmake: *** [Makefile:146: all] Interrupt
+[7.131s] Invoked command in '/home/admin/bumperbot_ws/build/bumperbot_cpp_examples' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4

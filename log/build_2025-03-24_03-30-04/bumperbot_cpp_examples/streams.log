@@ -1,0 +1,11 @@
+[0.025s] Invoking command in '/home/admin/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.151s] [ 25%] Built target simple_parameter
+[0.156s] [ 50%] Built target simple_turtlesim_kinematics
+[0.156s] [ 62%] [32mBuilding CXX object CMakeFiles/simple_subs.dir/src/simple_subs.cpp.o[0m
+[0.161s] [ 87%] Built target simple_publisher
+[4.808s] gmake[2]: *** [CMakeFiles/simple_subs.dir/build.make:76: CMakeFiles/simple_subs.dir/src/simple_subs.cpp.o] Interrupt
+[4.809s] gmake[1]: *** wait: No child processes.  Stop.
+[4.809s] gmake[1]: *** Waiting for unfinished jobs....
+[4.809s] gmake[1]: *** wait: No child processes.  Stop.
+[4.810s] gmake: *** [Makefile:146: all] Error 2
+[4.857s] Invoked command in '/home/admin/bumperbot_ws/build/bumperbot_cpp_examples' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/admin/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
